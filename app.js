@@ -43,7 +43,10 @@ console.log(first+second+third)
 let awesome = "first+second+third";
 console.log(awesome);
 
-prompt('Iveskite vidutini pensijos dydi');
-let biudzetas = 12.5 milijardu euru\n;
-let pensijinisAmziuszmoniu = 637244\n;
-console.log(biudzetas + pensijinisAmziuszmoniu );
+var budget = 12500000000000;
+var people = 637244;
+var prompt = prompt("Įveskite vidutinės pensijos dydį");
+var pensija = (people * prompt) / budget;
+console.log(pensija);
+var procentai ="Lietuvos biudžetas yra:" budget + "Pensinio amžiaus žmonių yra:" people + "Jei vidutinės pensijos dydid yra:" prompt + "tai sudarytų proc. biudžeto";
+console.log(procentai);
